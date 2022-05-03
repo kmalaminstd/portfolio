@@ -1,0 +1,96 @@
+/* 
+common css
+ */
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #f1f1f1;
+}
+
+img{
+    max-width: 100%;
+    
+    height: auto;
+    vertical-align: center;
+}
+
+/* 
+common css
+ */
+
+.login_area{
+    background-color: #fff;
+    max-width: 350px;
+    width: 100%;
+    height: auto;
+    padding: 15px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    border: 1px solid lightgray;
+}
+
+.login_area .logo{
+    height: 80px;
+    width: 150px;
+    margin: 0 auto;
+}
+
+
+.login_area form{
+    width: 100%;
+}
+
+input{
+    margin-bottom: 25px;
+    margin-top: 10px;
+    background-color: #f1f1f1;
+    outline: none;
+    border: 1px solid lightgray;
+    padding: 10px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+form input:not([type="submit"]){
+    width: 93%;
+}
+
+form input[type="radio"]{
+    width: 15px;
+    height: auto;
+    cursor: pointer;
+}
+
+form input[type="submit"]{
+    position: absolute;
+    right: 0;
+    cursor: pointer;
+}
+
+form{
+    position: relative;
+}
+
+label{
+    font-size: 17px;
+}
+
+
+/* responsive part */
+
+@media only screen and (max-width: 380px) and (min-width: 200px){
+    .login_area {
+        max-width: 265px;
+        width: 80%;
+    }
+}

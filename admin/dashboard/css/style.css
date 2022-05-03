@@ -1,0 +1,171 @@
+/* common css area */
+
+body{
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    max-width: 100%;
+    height: auto;
+}
+
+a{
+    text-decoration: none;
+}
+
+ol, ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+/* common css area */
+
+/* top_ad_menu area css */
+
+.top_ad_menu{
+    background-color: #343a40;
+    width: 100%;
+    clear: both;
+}
+
+.inner_top_ad_menu{
+    overflow: hidden;
+    padding: 17px 0;
+}
+
+.left_top{
+    width: 20%;
+    float: left;
+}
+
+.left_top img{
+    margin-top: 6px;
+    padding-left: 10px;
+    width: 70%;
+    float: left;
+    margin-right: 31px;
+}
+
+.icons{
+    margin-top: 11px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 30px;
+    height: 23px;
+    cursor: pointer;
+}
+
+.icons span{
+    background-color: #fff;
+    height: 2px;
+    width: 100%;
+}
+
+.center_top{
+    width: 45%;
+    float: left;
+}
+
+.center_top form{
+    margin-top: 8px;
+    float: right;
+    max-width: 340px;
+    width: 100%;
+    background-color: #fff;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    border: 1px solid lightgray;
+}
+
+.center_top form input{
+    outline: none;
+    padding: 8px;
+    outline: none;
+    border: none;
+    height: 100%;
+}
+
+.center_top form input[type="search"]{
+    width: 80%;
+    float: left;
+}
+
+.center_top form input[type="submit"]{
+    width: 20%;
+    float: right;
+    background-color: #007bff;
+    color: #fff;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.right_top{
+    width: 35%;
+    float: right;
+}
+
+.fa-user{
+    margin-right: 10px;
+}
+
+.fa-sort-down{
+    margin-bottom: 1px;
+}
+
+.right_top ul{
+    padding-right: 25px;
+    text-align: right;
+}
+
+.right_top ul li{
+    display: inline-block;
+}
+
+.right_top ul li a{
+    margin-top: 10px;
+    display: block;
+    color: #fff;
+    font-size: 18px;
+}
+
+.right_top ul ul{
+    position: absolute;
+    right: 13px;
+    top: 60px;
+    top: 10;
+    display: none;
+    border-radius: 5px;
+    text-align: left;
+    background-color: #fff;
+    padding: 18px;
+    border: 1px solid lightgray;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    z-index: 9999999999;
+}
+
+.right_top ul li:hover ul{
+    display: block;
+    z-index: 9999;
+}
+
+.right_top ul ul li{
+    display: block;
+}
+
+.right_top ul ul li a{
+    display: block;
+    color: #000;
+}
+
+/* top_ad_menu area css */
