@@ -1,0 +1,123 @@
+/* tablet mode  */
+
+@media only screen and (max-width: 991px) and (min-width: 200px){
+    .left_top_nav ul li a {
+        padding-left: 35px;
+    }
+    .right_top_nav ul li a {
+        padding: 0 15px;
+    }
+    .main_menu .logo img {
+        margin-left: 20px;
+    }
+    .child_type {
+        width: 30%;
+        margin-left: 3%;
+    }
+    .child_work {
+        width: 47%;
+        margin-right: 0%;
+        margin-left: 1%;
+    }
+    .copyright_lower_footer p {
+        padding-left: 25px;
+    }
+}
+
+/* tablet mode  */
+
+/* another tablet layout */
+
+@media only screen and (max-width: 768px) and (min-width: 200px){
+    /* .left_top_nav ul li a {
+        margin-right: 10px;
+    }
+    
+    .type_area .type_area_upper p {
+        padding: 0 5px;
+    }
+    
+    .child_footer {
+        width: 48%;
+        margin-bottom: 20px;
+    } */
+
+    .left_top_nav ul li a {
+        padding-left: 22px;
+    }
+    .top_nav .left_top_nav {
+        width: 100%;
+    }
+
+    .right_top_nav ul {
+        text-align: center;
+    }
+    .top_nav .right_top_nav {
+        width: 100%;
+        margin-top: 26px;
+    }
+    .main_menu {
+        display: none;
+    }
+    .child_type {
+        width: 100%;
+    }
+    .child_work {
+        width: 100%;
+        margin-right: 0%;
+        margin-left: 0;
+        margin-top: 35px;
+    }
+    .portfolio_area {
+        padding: 60px 0;
+    }
+    .child_footer {
+        width: 100%;
+    }
+    .copyright_lower_footer {
+        width: 100%;
+    }
+    .copyright_lower_footer p {
+        text-align: center;
+        padding-left: 0px;
+    }
+    .menu_lower_footer {
+        width: 100%;
+    }
+    .menu_lower_footer ul {
+        text-align: center;
+        margin-top: 20px;
+    }
+    .menu_lower_footer ul {
+        text-align: center;
+        margin-top: 20px;
+    }
+    .owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev, .owl-carousel button.owl-dot {
+        display: none;
+    }
+    .slicknav_menu{
+        display: block;
+    }
+    .left_top_nav ul li a {
+        margin-right: 0px;
+    }
+    .inner_contact_page .facebook, .instragram, .inner_contact_form form input:not([type="submit"]), textarea {
+        width: 90%;
+    }
+    .all_skill {
+        width: 100%;
+    }
+    .skillbar {
+        width: 99%;
+    }
+
+}
+
+/* another tablet layout */
+
+/* mobile layout */
+
+
+
+/* mobile layout */
+

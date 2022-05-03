@@ -1,0 +1,105 @@
+header{
+    border-bottom: 1px solid #283645;
+}
+
+.about_details{
+    background: linear-gradient(rgba(96, 121, 148, 0.7),rgba(96, 121, 148, 0.7)), url(../images/aboutme.png);
+    padding: 100px 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 40px 0;
+}
+
+.about_details h2{
+    text-align: center;
+    color: #fff;
+    font-size: 44px;
+    text-transform: uppercase;
+}
+
+.about_details p{
+    text-align: center;
+    color: #fff;
+    font-size: 22px;
+}
+
+.skills{
+    width: 100%;
+    background-color: #fff;
+}
+
+.inner_skills{
+    overflow: hidden;
+}
+
+.inner_skills h2{
+    text-align: center;
+    font-size: 44px;
+    text-transform: uppercase;
+}
+
+.all_skill{
+    width: 600px;
+    margin: 20px auto;
+    overflow: hidden;
+}
+
+.all_skill p{
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.skillbar{
+    width: 100%;
+    display: block;
+    border: 1px solid #283645;
+    margin-top: 20px;
+    border-radius: 44px;
+    -webkit-border-radius: 44px;
+    -moz-border-radius: 44px;
+    -ms-border-radius: 44px;
+    -o-border-radius: 44px;
+    background-color: #283645;
+    overflow: hidden;
+    clear: both;
+}
+
+.html_skill{
+    width: 92%;
+    float: left;
+    background-color: #e34c36;
+    padding: 10px;
+}
+
+.fa-html5, .fa-css3, .fa-bootstrap{
+    font-size: 25px;
+    color: #fff;
+}
+
+.css_skill{
+    width: 90%;
+    float: left;
+    background-color: #2965f1;
+    padding: 10px;
+}
+
+.bootstrap_skill{
+    width: 85%;
+    float: left;
+    background-color: #6f43a5;
+    padding: 10px;
+}
+
+.jquery_skill{
+    width: 60%;
+    float: left;
+    background-color: #0865a7;
+    padding: 10px;
+}
+
+.jquery_skill .skill_icon{
+    font-size: 20px;
+    color: #fff;
+}
+
