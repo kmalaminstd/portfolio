@@ -278,47 +278,6 @@ img{
 
 
 
-/* Responsive Styles */
-@media (max-width: 768px) {
-    .nav-links {
-        position: fixed;
-        top: 80px;
-        right: -100%;
-        width: 200px;
-        height: calc(100vh - 80px);
-        background-color: #050608;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        gap: 20px;
-        transition: right 0.3s ease;
-    }
-
-    .nav-links.active {
-        right: 0;
-    }
-
-    .hamburger {
-        display: block;
-    }
-
-    .banner-content {
-        flex-direction: column-reverse;
-        text-align: center;
-    }
-
-    .text-section h1 {
-        font-size: 2rem;
-    }
-
-    .text-section p {
-        font-size: 1rem;
-    }
-
-    .image-section img {
-        width: 250px;
-    }
-}
 
 /* Keyframes for Animations */
 @keyframes slideInLeft {
@@ -452,6 +411,7 @@ img{
 
 .all_works{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
     margin-top: 50px;
 }
