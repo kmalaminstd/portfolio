@@ -431,7 +431,8 @@ img{
 }
 
 .all_skills .skill img {
-    height: 40px;
+    height: 60px;
+    width: 60px;
 }
 
 .all_skills .skill h5 {
